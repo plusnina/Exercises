@@ -10,7 +10,7 @@ def ex_3():
     subm = driver.find_elements_by_xpath('//*[@id="searchbar"]/div/a/div/div[2]')
     subm[0].click()
     time.sleep(5)
-
+    driver.implicitly_wait()
     assert (driver.find_elements_by_xpath('//*[contains(text(), "cute")]'))
     driver.quit()
 
