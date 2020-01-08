@@ -1,3 +1,14 @@
+…or create a new repository on the command line
+echo "# Peloton" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kotbeg/Peloton.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/kotbeg/Peloton.git
+git push -u origin master
+
 # Exercises
 
 ### ex_2 is modified to assert that the submitted results are coherent, though I did not add more tests.
